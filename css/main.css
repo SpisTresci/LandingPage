@@ -451,8 +451,8 @@ html {
 	overflow:hidden;
 }
 
-.review_content p {
-	padding-top:2rem;
+.review_content h6 {
+	padding-bottom:2rem;
 }
 
 .reviews_logo img {
