@@ -1,0 +1,9 @@
+web:
+  image: httpd:2.4
+  ports:
+    - "80"
+  environment:
+    - VIRTUAL_HOST=spistresci.pl
+    - VIRTUAL_PORT=80
+  volumes:
+    - .:/usr/local/apache2/htdocs/
